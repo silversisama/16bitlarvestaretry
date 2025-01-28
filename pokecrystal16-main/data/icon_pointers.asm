@@ -217,7 +217,7 @@ IconPointers:
 	; dw ZweilousIcon
 	; dw HydreigonIcon
 	dw SpewpaIcon
-	; dw VolcaronaIcon
+	dw VolcaronaIcon
 	dw ChespinIcon
 	dw ChesnaughtIcon
 	dw FennekinIcon

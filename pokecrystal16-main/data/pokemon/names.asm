@@ -622,8 +622,8 @@ PokemonNames::
 	; db "DEINO@@@@@"; 
 	; db "ZWEILOUS@@"; 
 	; db "HYDREIGON@"; 
-	; db "LARVESTA@@"; 
-	; db "VOLCARONA@"; 
+	db "LARVESTA@@"; 
+	db "VOLCARONA@"; 
 	db "CHESPIN@@@"  ; CHESPIN
 	db "QUILLADIN@"  ; QUILLADIN
 	db "CHESNAUGHT"  ; CHESNAUGHT

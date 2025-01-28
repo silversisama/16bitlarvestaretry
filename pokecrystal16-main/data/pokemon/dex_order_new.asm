@@ -342,8 +342,8 @@ NewPokedexOrder:
 	dw SCIZOR
 	dw KLEAVOR
 	dw PINSIR
-	; dw LARVESTA
-	; dw VOLCARONA
+	dw LARVESTA
+	dw VOLCARONA
 	dw BONSLY
 	dw SUDOWOODO
 	dw NOSEPASS

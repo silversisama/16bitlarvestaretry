@@ -98,8 +98,8 @@ EvolutionMovePointers5::
 	; dw NoEvolutionMoves5         ; DEINO
 	; dw ZweilousEvolutionMoves    ; ZWEILOUS
 	; dw HydreigonEvolutionMoves   ; HYDREIGON
-	; dw NoEvolutionMoves5         ; LARVESTA
-	; dw VolcaronaEvolutionMoves   ; VOLCARONA
+	dw NoEvolutionMoves5         ; LARVESTA
+	dw VolcaronaEvolutionMoves   ; VOLCARONA
 
 SerperiorEvolutionMoves:
 	dw DRAGON_TAIL

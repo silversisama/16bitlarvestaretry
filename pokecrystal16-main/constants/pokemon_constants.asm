@@ -636,8 +636,8 @@ SINNOH_POKEMON EQU const_value
 	; const DEINO
 	; const ZWEILOUS
 	; const HYDREIGON
-	; const LARVESTA
-	; const VOLCARONA
+	const LARVESTA
+	const VOLCARONA
 UNOVA_POKEMON EQU const_value
 	const CHESPIN
 	const QUILLADIN

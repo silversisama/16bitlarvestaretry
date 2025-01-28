@@ -1264,10 +1264,10 @@ INCLUDE "gfx/pokemon/durant/shiny.pal"
 ; INCLUDE "gfx/pokemon/zweilous/shiny.pal"
 ; INCBIN "gfx/pokemon/hydreigon/front.gbcpal", middle_colors
 ; INCLUDE "gfx/pokemon/hydreigon/shiny.pal"
-; INCBIN "gfx/pokemon/larvesta/front.gbcpal", middle_colors
-; INCLUDE "gfx/pokemon/larvesta/shiny.pal"
-; INCBIN "gfx/pokemon/volcarona/front.gbcpal", middle_colors
-; INCLUDE "gfx/pokemon/volcarona/shiny.pal"
+INCBIN "gfx/pokemon/larvesta/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/larvesta/shiny.pal"
+INCBIN "gfx/pokemon/volcarona/front.gbcpal", middle_colors
+INCLUDE "gfx/pokemon/volcarona/shiny.pal"
 INCBIN "gfx/pokemon/chespin/front.gbcpal", middle_colors
 INCLUDE "gfx/pokemon/chespin/shiny.pal"
 INCBIN "gfx/pokemon/quilladin/front.gbcpal", middle_colors

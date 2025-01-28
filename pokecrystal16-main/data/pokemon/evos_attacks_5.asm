@@ -98,8 +98,8 @@ EvosAttacksPointers5::
 	; dw DeinoEvosAttacks
 	; dw ZweilousEvosAttacks
 	; dw HydreigonEvosAttacks
-	; dw LarvestaEvosAttacks
-	; dw VolcaronaEvosAttacks
+	dw LarvestaEvosAttacks
+	dw VolcaronaEvosAttacks
 
 SnivyEvosAttacks:
 	dbbbw EVOLVE_LEVEL, 17, TR_ANYTIME, SERVINE
@@ -2062,48 +2062,47 @@ DurantEvosAttacks:
 	; dbw 76, HYPER_BEAM
 	; db 0 ; no more level-up moves
 
-; LarvestaEvosAttacks:
-	; dbbbw EVOLVE_LEVEL, 59, TR_ANYTIME, VOLCARONA
-	; db 0 ; no more evolutions
-	; dbw 1, EMBER
-	; dbw 1, STRING_SHOT
-	; dbw 5, ABSORB
-	; dbw 10, FLAME_CHARGE
-	; dbw 15, STRUGGLE_BUG
-	; dbw 20, FLAME_WHEEL
-	; dbw 25, BUG_BITE
-	; dbw 30, SCREECH
-	; dbw 35, TAKE_DOWN
-	; dbw 40, LEECH_LIFE
-	; dbw 45, BUG_BUZZ
-	; dbw 50, THRASH
-	; dbw 55, AMNESIA
-	; dbw 60, DOUBLE_EDGE
-	; dbw 65, FLARE_BLITZ
-	; db 0 ; no more level-up moves
+LarvestaEvosAttacks:
+	dbbbw EVOLVE_LEVEL, 39, TR_ANYTIME, VOLCARONA
+	db 0 ; no more evolutions
+	dbw 1, EMBER
+	dbw 1, STRING_SHOT
+	dbw 5, ABSORB
+	dbw 10, FLAME_CHARGE
+	dbw 15, STRUGGLE_BUG
+	dbw 20, FLAME_WHEEL
+	dbw 25, BUG_BITE
+	dbw 30, SCREECH
+	dbw 35, TAKE_DOWN
+	dbw 40, LEECH_LIFE
+	dbw 45, BUG_BUZZ
+	dbw 50, THRASH
+	dbw 55, AMNESIA
+	dbw 60, DOUBLE_EDGE
+	dbw 65, FLARE_BLITZ
+	db 0 ; no more level-up moves
 
-; VolcaronaEvosAttacks:
-	; dbw 1, FIRE_BLAST
-	; dbw 1, HEAT_WAVE
-	; dbw 1, FIRE_SPIN
-	; dbw 1, WHIRLWIND
-	; dbw 1, GUST
-	; dbw 1, FLARE_BLITZ
-	; dbw 1, DOUBLE_EDGE
-	; dbw 1, EMBER
-	; dbw 1, STRING_SHOT
-	; dbw 5, ABSORB
-	; dbw 10, FLAME_CHARGE
-	; dbw 15, STRUGGLE_BUG
-	; dbw 20, FLAME_WHEEL
-	; dbw 25, BUG_BITE
-	; dbw 30, SCREECH
-	; dbw 35, TAKE_DOWN
-	; dbw 40, LEECH_LIFE
-	; dbw 45, BUG_BUZZ
-	; dbw 50, THRASH
-	; dbw 55, AMNESIA
-	; dbw 58, QUIVER_DANCE
-	; dbw 66, HURRICANE
-	; dbw 77, FIERY_DANCE
-	; db 0 ; no more level-up moves
+VolcaronaEvosAttacks:
+	dbw 1, FIRE_BLAST
+	dbw 1, FIRE_SPIN
+	dbw 1, WHIRLWIND
+	dbw 1, GUST
+	dbw 1, FLARE_BLITZ
+	dbw 1, DOUBLE_EDGE
+	dbw 1, EMBER
+	dbw 1, STRING_SHOT
+	dbw 5, ABSORB
+	dbw 10, FLAME_CHARGE
+	dbw 15, STRUGGLE_BUG
+	dbw 20, FLAME_WHEEL
+	dbw 25, BUG_BITE
+	dbw 30, SCREECH
+	dbw 35, TAKE_DOWN
+	dbw 40, LEECH_LIFE
+	dbw 1, HEAT_WAVE	
+	dbw 45, BUG_BUZZ
+	dbw 50, THRASH
+	dbw 55, AMNESIA
+	dbw 58, QUIVER_DANCE
+	dbw 66, HURRICANE
+	db 0 ; no more level-up moves

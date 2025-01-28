@@ -1243,7 +1243,7 @@ JohtoGrassWildMons:
 	dbw 3, SENTRET
 	dbw 3, SENTRET
 	dbw 3, PURRLOIN
-	dbw 3, BUDEW
+	dbw 3, LARVESTA
 	; day
 	dbw 2, FLETCHLING
 	dbw 2, FLETCHLING
@@ -1251,7 +1251,7 @@ JohtoGrassWildMons:
 	dbw 3, SENTRET
 	dbw 2, SENTRET
 	dbw 3, PURRLOIN
-	dbw 3, BUDEW
+	dbw 3, LARVESTA
 	; nite
 	dbw 2, HOOTHOOT
 	dbw 2, HOOTHOOT

@@ -617,8 +617,8 @@ PokedexDataPointerTable:
 	; dba DeinoPokedexEntry
 	; dba ZweilousPokedexEntry
 	; dba HydreigonPokedexEntry
-	; dba LarvestaPokedexEntry
-	; dba VolcaronaPokedexEntry
+	dba LarvestaPokedexEntry
+	dba VolcaronaPokedexEntry
 	dba ChespinPokedexEntry
 	dba QuilladinPokedexEntry
 	dba ChesnaughtPokedexEntry

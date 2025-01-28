@@ -620,8 +620,8 @@ MonMenuIconPals:
 	; icon_pals BLUE,   GREEN  ; DEINO
 	; icon_pals BLUE,   GREEN  ; ZWEILOUS
 	; icon_pals BLUE,   GREEN  ; HYDREIGON
-	; icon_pals RED,    GOLD   ; LARVESTA
-	; icon_pals RED,    GOLD   ; VOLCARONA
+	icon_pals RED,    GOLD   ; LARVESTA
+	icon_pals RED,    GOLD   ; VOLCARONA
 	icon_pals GREEN,  RED    ; CHESPIN
 	icon_pals GREEN,  RED    ; QUILLADIN
 	icon_pals GREEN,  RED    ; CHESNAUGHT

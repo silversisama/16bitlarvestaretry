@@ -98,8 +98,8 @@ EggMovePointers5::
 	; dw DeinoEggMoves
 	; dw NoEggMoves5
 	; dw NoEggMoves5
-	; dw LarvestaEggMoves
-	; dw NoEggMoves5
+	dw LarvestaEggMoves
+	dw NoEggMoves5
 
 SnivyEggMoves:
 	dw CAPTIVATE

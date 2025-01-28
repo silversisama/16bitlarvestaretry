@@ -1246,10 +1246,10 @@ PokemonPicPointers::
 	; dba ZweilousBackpic
 	; dba HydreigonFrontpic
 	; dba HydreigonBackpic
-	; dba LarvestaFrontpic
-	; dba LarvestaBackpic
-	; dba VolcaronaFrontpic
-	; dba VolcaronaBackpic
+	dba LarvestaFrontpic
+	dba LarvestaBackpic
+	dba VolcaronaFrontpic
+	dba VolcaronaBackpic
 	dba ChespinFrontpic
 	dba ChespinBackpic
 	dba QuilladinFrontpic

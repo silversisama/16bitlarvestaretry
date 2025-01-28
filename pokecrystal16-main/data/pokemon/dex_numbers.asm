@@ -620,8 +620,8 @@ PokemonNumbers::
 	; db "633@@" ; DEINO
 	; db "634@@" ; ZWEILOUS
 	; db "635@@" ; HYDREIGON
-	; db "636@@" ; LARVESTA
-	; db "637@@" ; VOLCARONA
+	db "636@@" ; LARVESTA
+	db "637@@" ; VOLCARONA
 	db "650@@" ; CHESPIN
 	db "651@@" ; QUILLADIN
 	db "652@@" ; CHESNAUGHT

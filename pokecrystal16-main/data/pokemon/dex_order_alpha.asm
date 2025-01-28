@@ -383,7 +383,7 @@ AlphabeticalPokedexOrder:
 	dw LAMPENT
 	dw LANTURN
 	dw LAPRAS
-	; dw LARVESTA
+	dw LARVESTA
 	dw LARVITAR
 	dw LATIAS
 	dw LATIOS
@@ -780,7 +780,7 @@ AlphabeticalPokedexOrder:
 	dw VILEPLUME
 	dw VIVILLON
 	; dw VOLCANION
-	; dw VOLCARONA
+	dw VOLCARONA
 	dw VULLABY
 	dw VULPIX
 	dw VULPIX_A

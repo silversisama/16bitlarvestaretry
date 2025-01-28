@@ -616,8 +616,8 @@ FirstEvoStages::
 	; dw DEINO       ; DEINO
 	; dw DEINO       ; ZWEILOUS
 	; dw DEINO       ; HYDREIGON
-	; dw LARVESTA    ; LARVESTA
-	; dw LARVESTA    ; VOLCARONA
+	dw LARVESTA    ; LARVESTA
+	dw LARVESTA    ; VOLCARONA
 	dw CHESPIN     ; CHESPIN
 	dw CHESPIN     ; QUILLADIN
 	dw CHESPIN     ; CHESNAUGHT
