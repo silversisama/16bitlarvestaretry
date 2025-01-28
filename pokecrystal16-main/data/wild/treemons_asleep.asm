@@ -1,0 +1,51 @@
+; Used by CheckSleepingTreeMon
+
+AsleepTreeMonsNite:
+	dw CATERPIE
+	dw METAPOD
+	dw BUTTERFREE
+	dw WEEDLE
+	dw KAKUNA
+	dw BEEDRILL
+	dw STARLY
+	dw EXEGGCUTE
+	dw LEDYBA
+	dw NATU
+	dw SEEDOT
+	dw TAILLOW
+	dw STARLY
+	dw COMBEE
+	dw BURMY_PLANT
+	dw BURMY_SANDY
+	dw BURMY_TRASH
+	dw WORMADAM_PLANT
+	dw WORMADAM_SANDY
+	dw WORMADAM_TRASH
+	dw CRABRAWLER
+	dw ORANGURU
+	; dw PASSIMIAN
+	dw APPLIN
+	dw MUNCHLAX
+	dw -1 ; end
+
+AsleepTreeMonsDay:
+	dw VENONAT
+	dw HOOTHOOT
+	dw NOCTOWL
+	dw SPINARAK
+	dw HERACROSS
+	dw ORANGURU
+	dw APPLIN
+	dw MUNCHLAX
+	dw -1 ; end
+
+AsleepTreeMonsMorn:
+	dw VENONAT
+	dw HOOTHOOT
+	dw NOCTOWL
+	dw SPINARAK
+	dw HERACROSS
+	dw ORANGURU
+	dw APPLIN
+	dw MUNCHLAX
+	dw -1 ; end

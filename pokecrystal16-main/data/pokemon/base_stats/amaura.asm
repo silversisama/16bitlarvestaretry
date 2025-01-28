@@ -1,0 +1,20 @@
+	db 0 ; species ID placeholder
+
+	db  77,  59,  50,  46,  67,  63
+	evs  1,   0,   0,   0,   0,   0
+	;   hp  atk  def  spd  sat  sdf
+
+	db ROCK, ICE ; type
+	db 45 ; catch rate
+	db 72 ; base exp
+	db NO_ITEM, NO_ITEM ; items
+	db GENDER_F50 ; gender ratio
+	db 30 ; step cycles to hatch
+	INCBIN "gfx/pokemon/amaura/front.dimensions"
+	db 0, 0, 0, 0 ; padding
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_MONSTER, EGG_MONSTER ; egg groups
+
+	; tm/hm learnset
+	tmhm HEADBUTT, CALM_MIND, ROAR, TOXIC, HAIL, CURSE, HIDDEN_POWER, MUD_SHOT, ICE_BEAM, BLIZZARD, HYPER_BEAM, LIGHT_SCREEN, PROTECT, RAIN_DANCE, SAFEGUARD, ZEN_HEADBUTT, IRON_TAIL, THUNDERBOLT, RETURN, DOUBLE_TEAM, REFLECT, SANDSTORM, ROCK_TOMB, FACADE, REST, ATTRACT, ECHOED_VOICE, WEATHER_BALL, WATER_PULSE, CHARGE_BEAM, ENDURE, EARTH_POWER, ROCK_POLISH, FLASH, ICY_WIND, THUNDER_WAVE, STEALTH_ROCK, PSYCH_UP, BULLDOZE, ROCK_SLIDE, DREAM_EATER, SWAGGER, SLEEP_TALK, SUBSTITUTE, FLASH_CANNON, ROCK_SMASH, DARK_PULSE
+	; end

@@ -1,0 +1,20 @@
+	db 0 ; species ID placeholder
+
+	db  85,  76,  64,  90,  45,  55
+	evs  0,   0,   0,   2,   0,   0
+	;   hp  atk  def  spd  sat  sdf
+
+	db NORMAL, NORMAL ; type
+	db 90 ; catch rate
+	db 145 ; base exp
+	db BERRY, GOLD_BERRY ; items
+	db GENDER_F50 ; gender ratio
+	db 15 ; step cycles to hatch
+	INCBIN "gfx/pokemon/furret/front.dimensions"
+	db 0, 0, 0, 0 ; padding
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_GROUND, EGG_GROUND ; egg groups
+
+	; tm/hm learnset
+	tmhm HONE_CLAWS, HEADBUTT, TOXIC, CURSE, HIDDEN_POWER, SUNNY_DAY, ICE_BEAM, BLIZZARD, HYPER_BEAM, PROTECT, RAIN_DANCE, SOLARBEAM, IRON_TAIL, THUNDERBOLT, THUNDER, RETURN, DIG, SHADOW_BALL, BRICK_BREAK, DOUBLE_TEAM, FLAMETHROWER, THUNDERPUNCH, FACADE, ICE_PUNCH, REST, ATTRACT, THIEF, FIRE_PUNCH, ECHOED_VOICE, PLAY_ROUGH, WEATHER_BALL, FOCUS_BLAST, WATER_PULSE, CHARGE_BEAM, ENDURE, SHADOW_CLAW, RETALIATE, GIGA_IMPACT, GRASS_KNOT, SWAGGER, SLEEP_TALK, U_TURN, SUBSTITUTE, ROCK_SMASH, UPROAR, CUT, SURF, STRENGTH, WHIRLPOOL
+	; end

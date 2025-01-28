@@ -1,0 +1,20 @@
+	db 0 ; species ID placeholder
+
+	db  80, 120,  70,  80, 110,  70
+	evs  0,   3,   0,   0,   0,   0
+	;   hp  atk  def  spd  sat  sdf
+
+	db FIRE, FIGHTING ; type
+	db 45 ; catch rate
+	db 239 ; base exp
+	db NO_ITEM, NO_ITEM ; items
+	db GENDER_F50 ; gender ratio
+	db 20 ; step cycles to hatch
+	INCBIN "gfx/pokemon/blaziken/front.dimensions"
+	db 0, 0, 0, 0 ; padding
+	db GROWTH_MEDIUM_SLOW ; growth rate
+	dn EGG_GROUND, EGG_GROUND ; egg groups
+
+	; tm/hm learnset
+	tmhm HONE_CLAWS, HEADBUTT, ROAR, TOXIC, CURSE, HIDDEN_POWER, SUNNY_DAY, HYPER_BEAM, PROTECT, MIRROR_MOVE, SOLARBEAM, EARTHQUAKE, RETURN, DIG, BRICK_BREAK, DOUBLE_TEAM, FLAMETHROWER, FIRE_BLAST, ROCK_TOMB, AERIAL_ACE, THUNDERPUNCH, FACADE, REST, ATTRACT, FIRE_PUNCH, ECHOED_VOICE, FOCUS_BLAST, ENDURE, WILL_O_WISP, ACROBATICS, SHADOW_CLAW, GIGA_IMPACT, DUAL_CHOP, SWORDS_DANCE, BULLDOZE, LASER_FOCUS, ROCK_SLIDE, DEFOG, POISON_JAB, SWAGGER, SLEEP_TALK, U_TURN, SUBSTITUTE, ROCK_SMASH, CUT, STRENGTH, ROCK_CLIMB, BLAST_BURN
+	; end

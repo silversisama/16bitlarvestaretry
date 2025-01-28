@@ -1,0 +1,840 @@
+SECTION "Pokemon Names", ROMX
+
+	db "EGG@@@@@@@"
+	db "?????@@@@@"
+	db "?????@@@@@"
+	db "?????@@@@@"
+PokemonNames::
+	table_width NAME_LENGTH - 1, PokemonNames
+	db "BULBASAUR@"  ; BULBASAUR
+	db "IVYSAUR@@@"  ; IVYSAUR
+	db "VENUSAUR@@"  ; VENUSAUR
+	db "CHARMANDER"  ; CHARMANDER
+	db "CHARMELEON"  ; CHARMELEON
+	db "CHARIZARD@"  ; CHARIZARD
+	db "SQUIRTLE@@"  ; SQUIRTLE
+	db "WARTORTLE@"  ; WARTORTLE
+	db "BLASTOISE@"  ; BLASTOISE
+	db "CATERPIE@@"  ; CATERPIE
+	db "METAPOD@@@"  ; METAPOD
+	db "BUTTERFREE"  ; BUTTERFREE
+	db "WEEDLE@@@@"  ; WEEDLE
+	db "KAKUNA@@@@"  ; KAKUNA
+	db "BEEDRILL@@"  ; BEEDRILL
+	db "PIDGEY@@@@"  ; PIDGEY
+	db "PIDGEOTTO@"  ; PIDGEOTTO
+	db "PIDGEOT@@@"  ; PIDGEOT
+	db "RATTATA@@@"  ; RATTATA
+	db "RATTATA@@@"  ; RATTATA_A
+	db "RATICATE@@"  ; RATICATE
+	db "RATICATE@@"  ; RATICATE_A
+	db "EKANS@@@@@"  ; EKANS
+	db "ARBOK@@@@@"  ; ARBOK
+	db "PIKACHU@@@"  ; PIKACHU
+	db "RAICHU@@@@"  ; RAICHU
+	db "RAICHU@@@@"  ; RAICHU_A
+	db "SANDSHREW@"  ; SANDSHREW
+	db "SANDSHREW@"  ; SANDSHREW_A
+	db "SANDSLASH@"  ; SANDSLASH
+	db "SANDSLASH@"  ; SANDSLASH_A
+	db "NIDORAN♀@@"  ; NIDORAN_F
+	db "NIDORINA@@"  ; NIDORINA
+	db "NIDOQUEEN@"  ; NIDOQUEEN
+	db "NIDORAN♂@@"  ; NIDORAN_M
+	db "NIDORINO@@"  ; NIDORINO
+	db "NIDOKING@@"  ; NIDOKING
+	db "CLEFAIRY@@"  ; CLEFAIRY
+	db "CLEFABLE@@"  ; CLEFABLE
+	db "VULPIX@@@@"  ; VULPIX
+	db "VULPIX@@@@"  ; VULPIX_A
+	db "NINETALES@"  ; NINETALES
+	db "NINETALES@"  ; NINETALES_A
+	db "JIGGLYPUFF"  ; JIGGLYPUFF
+	db "WIGGLYTUFF"  ; WIGGLYTUFF
+	db "ZUBAT@@@@@"  ; ZUBAT
+	db "GOLBAT@@@@"  ; GOLBAT
+	db "ODDISH@@@@"  ; ODDISH
+	db "GLOOM@@@@@"  ; GLOOM
+	db "VILEPLUME@"  ; VILEPLUME
+	db "PARAS@@@@@"  ; PARAS
+	db "PARASECT@@"  ; PARASECT
+	db "VENONAT@@@"  ; VENONAT
+	db "VENOMOTH@@"  ; VENOMOTH
+	db "DIGLETT@@@"  ; DIGLETT
+	db "DUGTRIO@@@"  ; DUGTRIO
+	db "MEOWTH@@@@"  ; MEOWTH
+	db "MEOWTH@@@@"  ; MEOWTH_A
+	db "MEOWTH@@@@"  ; MEOWTH_G
+	db "PERSIAN@@@"  ; PERSIAN
+	db "PERSIAN@@@"  ; PERSIAN_A
+	db "PSYDUCK@@@"  ; PSYDUCK
+	db "GOLDUCK@@@"  ; GOLDUCK
+	db "MANKEY@@@@"  ; MANKEY
+	db "PRIMEAPE@@"  ; PRIMEAPE
+	db "GROWLITHE@"  ; GROWLITHE
+	db "GROWLITHE@"  ; GROWLITHE_H
+	db "ARCANINE@@"  ; ARCANINE
+	db "ARCANINE@@"  ; ARCANINE_H
+	db "ABRA@@@@@@"  ; ABRA
+	db "KADABRA@@@"  ; KADABRA
+	db "ALAKAZAM@@"  ; ALAKAZAM
+	db "MACHOP@@@@"  ; MACHOP
+	db "MACHOKE@@@"  ; MACHOKE
+	db "MACHAMP@@@"  ; MACHAMP
+	db "BELLSPROUT"  ; BELLSPROUT
+	db "WEEPINBELL"  ; WEEPINBELL
+	db "VICTREEBEL"  ; VICTREEBEL
+	db "TENTACOOL@"  ; TENTACOOL
+	db "TENTACRUEL"  ; TENTACRUEL
+	db "GEODUDE@@@"  ; GEODUDE
+	db "GEODUDE@@@"  ; GEODUDE_A
+	db "GRAVELER@@"  ; GRAVELER
+	db "GRAVELER@@"  ; GRAVELER_A
+	db "GOLEM@@@@@"  ; GOLEM
+	db "GOLEM@@@@@"  ; GOLEM_A
+	db "PONYTA@@@@"  ; PONYTA
+	db "PONYTA@@@@"  ; PONYTA_G
+	db "RAPIDASH@@"  ; RAPIDASH
+	db "RAPIDASH@@"  ; RAPIDASH_G
+	db "SLOWPOKE@@"  ; SLOWPOKE
+	db "SLOWPOKE@@"  ; SLOWPOKE_G
+	db "SLOWBRO@@@"  ; SLOWBRO
+	db "SLOWBRO@@@"  ; SLOWBRO_G
+	db "MAGNEMITE@"  ; MAGNEMITE
+	db "MAGNETON@@"  ; MAGNETON
+	db "FARFETCH'D"  ; FARFETCH_D
+	db "FARFETCH'D"  ; FARFETCH_D_G
+	db "DODUO@@@@@"  ; DODUO
+	db "DODRIO@@@@"  ; DODRIO
+	db "SEEL@@@@@@"  ; SEEL
+	db "DEWGONG@@@"  ; DEWGONG
+	db "GRIMER@@@@"  ; GRIMER
+	db "MUK@@@@@@@"  ; MUK
+	db "SHELLDER@@"  ; SHELLDER
+	db "CLOYSTER@@"  ; CLOYSTER
+	db "GASTLY@@@@"  ; GASTLY
+	db "HAUNTER@@@"  ; HAUNTER
+	db "GENGAR@@@@"  ; GENGAR
+	db "ONIX@@@@@@"  ; ONIX
+	db "DROWZEE@@@"  ; DROWZEE
+	db "HYPNO@@@@@"  ; HYPNO
+	db "KRABBY@@@@"  ; KRABBY
+	db "KINGLER@@@"  ; KINGLER
+	db "EXEGGCUTE@"  ; EXEGGCUTE
+	db "EXEGGUTOR@"  ; EXEGGUTOR
+	db "EXEGGUTOR@"  ; EXEGGUTOR_A
+	db "CUBONE@@@@"  ; CUBONE
+	db "MAROWAK@@@"  ; MAROWAK
+	db "MAROWAK@@@"  ; MAROWAK_A
+	db "LICKITUNG@"  ; LICKITUNG
+	db "KOFFING@@@"  ; KOFFING
+	db "WEEZING@@@"  ; WEEZING
+	db "WEEZING@@@"  ; WEEZING_G
+	db "RHYHORN@@@"  ; RHYHORN
+	db "RHYDON@@@@"  ; RHYDON
+	db "CHANSEY@@@"  ; CHANSEY
+	db "TANGELA@@@"  ; TANGELA
+	db "KANGASKHAN"  ; KANGASKHAN
+	db "HORSEA@@@@"  ; HORSEA
+	db "SEADRA@@@@"  ; SEADRA
+	db "GOLDEEN@@@"  ; GOLDEEN
+	db "SEAKING@@@"  ; SEAKING
+	db "STARYU@@@@"  ; STARYU
+	db "STARMIE@@@"  ; STARMIE
+	db "MR. MIME@@"  ; MR_MIME
+	db "MR. MIME@@"  ; MR__MIME_G
+	db "SCYTHER@@@"  ; SCYTHER
+	db "ELECTABUZZ"  ; ELECTABUZZ
+	db "MAGMAR@@@@"  ; MAGMAR
+	db "PINSIR@@@@"  ; PINSIR
+	db "TAUROS@@@@"  ; TAUROS
+	db "MAGIKARP@@"  ; MAGIKARP
+	db "GYARADOS@@"  ; GYARADOS
+	db "LAPRAS@@@@"  ; LAPRAS
+	db "DITTO@@@@@"  ; DITTO
+	db "EEVEE@@@@@"  ; EEVEE
+	db "VAPOREON@@"  ; VAPOREON
+	db "JOLTEON@@@"  ; JOLTEON
+	db "FLAREON@@@"  ; FLAREON
+	db "PORYGON@@@"  ; PORYGON
+	db "OMANYTE@@@"  ; OMANYTE
+	db "OMASTAR@@@"  ; OMASTAR
+	db "KABUTO@@@@"  ; KABUTO
+	db "KABUTOPS@@"  ; KABUTOPS
+	db "AERODACTYL"  ; AERODACTYL
+	db "SNORLAX@@@"  ; SNORLAX
+	db "ARTICUNO@@"  ; ARTICUNO
+	db "ARTICUNO@@"  ; ARTICUNO_G
+	db "ZAPDOS@@@@"  ; ZAPDOS
+	db "ZAPDOS@@@@"  ; ZAPDOS_G
+	db "MOLTRES@@@"  ; MOLTRES
+	db "MOLTRES@@@"  ; MOLTRES_G
+	db "DRATINI@@@"  ; DRATINI
+	db "DRAGONAIR@"  ; DRAGONAIR
+	db "DRAGONITE@"  ; DRAGONITE
+	db "MEWTWO@@@@"  ; MEWTWO
+	db "MEW@@@@@@@"  ; MEW
+	db "URSAFLAME@"  ; URSAFLAME
+	db "TANGEL@@@@"  ; TANGEL
+	db "MARUMARILL"  ; MARUMARILL
+	db "MOLANCORA@"  ; MOLANCORA
+	db "ANGORE@@@@"  ; ANGORE
+	db "MEOWSY@@@@"  ; MEOWSY
+	db "MOIBELLE@@"  ; MOIBELLE
+	db "CHIMEOW@@@"  ; CHIMEOW
+	db "TYKER@@@@@"  ; TYKER
+	db "STRAIGAR@@"  ; STRAIGAR
+	db "SWANDAME@@"  ; SWANDAME
+	db "KURSTRAW@@"  ; KURSTRAW
+	db "PHANDARIN@"  ; PHANDARIN
+	db "WOLFROST@@"  ; WOLFROST
+	db "WARWOLF@@@"  ; WARWOLF
+	; db "GUSTELA@@@"; 
+	db "CHIKORITA@"  ; CHIKORITA
+	db "BAYLEEF@@@"  ; BAYLEEF
+	db "MEGANIUM@@"  ; MEGANIUM
+	db "CYNDAQUIL@"  ; CYNDAQUIL
+	db "QUILAVA@@@"  ; QUILAVA
+	db "TYPHLOSION"  ; TYPHLOSION
+	db "TYPHLOSION"  ; TYPHLOSION_H
+	db "TOTODILE@@"  ; TOTODILE
+	db "CROCONAW@@"  ; CROCONAW
+	db "FERALIGATR"  ; FERALIGATR
+	db "SENTRET@@@"  ; SENTRET
+	db "FURRET@@@@"  ; FURRET
+	db "HOOTHOOT@@"  ; HOOTHOOT
+	db "NOCTOWL@@@"  ; NOCTOWL
+	db "LEDYBA@@@@"  ; LEDYBA
+	db "LEDIAN@@@@"  ; LEDIAN
+	db "SPINARAK@@"  ; SPINARAK
+	db "ARIADOS@@@"  ; ARIADOS
+	db "CROBAT@@@@"  ; CROBAT
+	db "CHINCHOU@@"  ; CHINCHOU
+	db "LANTURN@@@"  ; LANTURN
+	db "PICHU@@@@@"  ; PICHU
+	db "CLEFFA@@@@"  ; CLEFFA
+	db "IGGLYBUFF@"  ; IGGLYBUFF
+	db "TOGEPI@@@@"  ; TOGEPI
+	db "TOGETIC@@@"  ; TOGETIC
+	db "NATU@@@@@@"  ; NATU
+	db "XATU@@@@@@"  ; XATU
+	db "MAREEP@@@@"  ; MAREEP
+	db "FLAAFFY@@@"  ; FLAAFFY
+	db "AMPHAROS@@"  ; AMPHAROS
+	db "BELLOSSOM@"  ; BELLOSSOM
+	db "MARILL@@@@"  ; MARILL
+	db "MARILL@@@@"  ; MARILL_B
+	db "AZUMARILL@"  ; AZUMARILL
+	db "SUDOWOODO@"  ; SUDOWOODO
+	db "HOPPIP@@@@"  ; HOPPIP
+	db "HOPPIP@@@@"  ; HOPPIP_B
+	db "SKIPLOOM@@"  ; SKIPLOOM
+	db "SKIPLOOM@@"  ; SKIPLOOM_B
+	db "JUMPLUFF@@"  ; JUMPLUFF
+	db "JUMPLUFF@@"  ; JUMPLUFF_B
+	db "SUNKERN@@@"  ; SUNKERN
+	db "SUNFLORA@@"  ; SUNFLORA
+	db "YANMA@@@@@"  ; YANMA
+	db "WOOPER@@@@"  ; WOOPER
+	db "WOOPER@@@@"  ; WOOPER_P
+	db "QUAGSIRE@@"  ; QUAGSIRE
+	db "ESPEON@@@@"  ; ESPEON
+	db "UMBREON@@@"  ; UMBREON
+	db "MURKROW@@@"  ; MURKROW
+	db "SLOWKING@@"  ; SLOWKING
+	db "SLOWKING@@"  ; SLOWKING_G
+	db "MISDREAVUS"  ; MISDREAVUS
+	db "UNOWN@@@@@"  ; UNOWN
+	db "WOBBUFFET@"  ; WOBBUFFET
+	db "GIRAFARIG@"  ; GIRAFARIG
+	db "PINECO@@@@"  ; PINECO
+	db "FORRETRESS"  ; FORRETRESS
+	db "DUNSPARCE@"  ; DUNSPARCE
+	db "GLIGAR@@@@"  ; GLIGAR
+	db "STEELIX@@@"  ; STEELIX
+	db "SNUBBULL@@"  ; SNUBBULL
+	db "GRANBULL@@"  ; GRANBULL
+	db "QWILFISH@@"  ; QWILFISH
+	db "QWILFISH@@"  ; QWILFISH_H
+	db "SCIZOR@@@@"  ; SCIZOR
+	db "SHUCKLE@@@"  ; SHUCKLE
+	db "HERACROSS@"  ; HERACROSS
+	db "SNEASEL@@@"  ; SNEASEL
+	db "TEDDIURSA@"  ; TEDDIURSA
+	db "TEDDIURSA@"  ; TEDDIURSA_B
+	db "URSARING@@"  ; URSARING
+	db "SLUGMA@@@@"  ; SLUGMA
+	db "MAGCARGO@@"  ; MAGCARGO
+	db "SWINUB@@@@"  ; SWINUB
+	db "PILOSWINE@"  ; PILOSWINE
+	db "CORSOLA@@@"  ; CORSOLA
+	db "CORSOLA@@@"  ; CORSOLA_G
+	db "REMORAID@@"  ; REMORAID
+	db "OCTILLERY@"  ; OCTILLERY
+	db "OCTILLERY@"  ; OCTILLERY_B
+	db "DELIBIRD@@"  ; DELIBIRD
+	db "MANTINE@@@"  ; MANTINE
+	db "SKARMORY@@"  ; SKARMORY
+	db "HOUNDOUR@@"  ; HOUNDOUR
+	db "HOUNDOOM@@"  ; HOUNDOOM
+	db "KINGDRA@@@"  ; KINGDRA
+	db "PHANPY@@@@"  ; PHANPY
+	db "DONPHAN@@@"  ; DONPHAN
+	db "PORYGON2@@"  ; PORYGON2
+	db "STANTLER@@"  ; STANTLER
+	db "SMEARGLE@@"  ; SMEARGLE
+	db "ELEKID@@@@"  ; ELEKID
+	db "MAGBY@@@@@"  ; MAGBY
+	db "MILTANK@@@"  ; MILTANK
+	db "BLISSEY@@@"  ; BLISSEY
+	db "RAIKOU@@@@"  ; RAIKOU
+	db "ENTEI@@@@@"  ; ENTEI
+	db "SUICUNE@@@"  ; SUICUNE
+	db "LARVITAR@@"  ; LARVITAR
+	db "PUPITAR@@@"  ; PUPITAR
+	db "TYRANITAR@"  ; TYRANITAR
+	db "LUGIA@@@@@"  ; LUGIA
+	db "HO-OH@@@@@"  ; HO_OH
+	db "CELEBI@@@@"  ; CELEBI
+	db "TREECKO@@@"  ; TREECKO
+	db "GROVYLE@@@"  ; GROVYLE
+	db "SCEPTILE@@"  ; SCEPTILE
+	db "TORCHIC@@@"  ; TORCHIC
+	db "COMBUSKEN@"  ; COMBUSKEN
+	db "BLAZIKEN@@"  ; BLAZIKEN
+	db "MUDKIP@@@@"  ; MUDKIP
+	db "MARSHTOMP@"  ; MARSHTOMP
+	db "SWAMPERT@@"  ; SWAMPERT
+	; db "POOCHYENA@"; 
+	; db "MIGHTYENA@"; 
+	db "ZIGZAGOON@"  ; ZIGZAGOON
+	db "ZIGZAGOON@"  ; ZIGZAGOON_G
+	db "LINOONE@@@"  ; LINOONE
+	db "LINOONE@@@"  ; LINOONE_G
+	db "LOTAD@@@@@"  ; LOTAD
+	db "LOMBRE@@@@"  ; LOMBRE
+	db "LUDICOLO@@"  ; LUDICOLO
+	db "SEEDOT@@@@"  ; SEEDOT
+	db "NUZLEAF@@@"  ; NUZLEAF
+	db "SHIFTRY@@@"  ; SHIFTRY
+	db "TAILLOW@@@"  ; TAILLOW
+	db "SWELLOW@@@"  ; SWELLOW
+	db "WINGULL@@@"  ; WINGULL
+	db "PELIPPER@@"  ; PELIPPER
+	db "RALTS@@@@@"  ; RALTS
+	db "KIRLIA@@@@"  ; KIRLIA
+	db "GARDEVOIR@"  ; GARDEVOIR
+	db "SURSKIT@@@"  ; SURSKIT
+	db "MASQUERAIN"  ; MASQUERAIN
+	db "SHROOMISH@"  ; SHROOMISH
+	db "BRELOOM@@@"  ; BRELOOM
+	db "WHISMUR@@@"  ; WHISMUR
+	db "LOUDRED@@@"  ; LOUDRED
+	db "EXPLOUD@@@"  ; EXPLOUD
+	db "MAKUHITA@@"  ; MAKUHITA
+	db "HARIYAMA@@"  ; HARIYAMA
+	db "AZURILL@@@"  ; AZURILL
+	db "NOSEPASS@@"  ; NOSEPASS
+	db "SKITTY@@@@"  ; SKITTY
+	db "DELCATTY@@"  ; DELCATTY
+	db "SABLEYE@@@"  ; SABLEYE
+	db "MAWILE@@@@"  ; MAWILE
+	db "ARON@@@@@@"  ; ARON
+	db "LAIRON@@@@"  ; LAIRON
+	db "AGGRON@@@@"  ; AGGRON
+	db "MEDITITE@@"  ; MEDITITE
+	db "MEDICHAM@@"  ; MEDICHAM
+	; db "ELECTRIKE@"; 
+	; db "MANECTRIC@"; 
+	; db "PLUSLE@@@@"; 
+	; db "MINUN@@@@@"; 
+	db "ROSELIA@@@"  ; ROSELIA
+	db "GULPIN@@@@"  ; GULPIN
+	db "SWALOT@@@@"  ; SWALOT
+	db "CARVANHA@@"  ; CARVANHA
+	db "SHARPEDO@@"  ; SHARPEDO
+	db "WAILMER@@@"  ; WAILMER
+	db "WAILORD@@@"  ; WAILORD
+	db "NUMEL@@@@@"  ; NUMEL
+	db "CAMERUPT@@"  ; CAMERUPT
+	; db "TORKOAL@@@"; 
+	; db "SPOINK@@@@"; 
+	; db "GRUMPIG@@@"; 
+	db "TRAPINCH@@"  ; TRAPINCH
+	db "VIBRAVA@@@"  ; VIBRAVA
+	db "FLYGON@@@@"  ; FLYGON
+	; db "CACNEA@@@@"; 
+	; db "CACTURNE@@"; 
+	db "SWABLU@@@@"  ; SWABLU
+	db "ALTARIA@@@"  ; ALTARIA
+	db "ZANGOOSE@@"  ; ZANGOOSE
+	db "SEVIPER@@@"  ; SEVIPER
+	db "LUNATONE@@"  ; LUNATONE
+	db "SOLROCK@@@"  ; SOLROCK
+	db "BARBOACH@@"  ; BARBOACH
+	db "WHISCASH@@"  ; WHISCASH
+	db "CORPHISH@@"  ; CORPHISH
+	db "CRAWDAUNT@"  ; CRAWDAUNT
+	db "BALTOY@@@@"  ; BALTOY
+	db "CLAYDOL@@@"  ; CLAYDOL
+	db "LILEEP@@@@"  ; LILEEP
+	db "CRADILY@@@"  ; CRADILY
+	db "ANORITH@@@"  ; ANORITH
+	db "ARMALDO@@@"  ; ARMALDO
+	db "FEEBAS@@@@"  ; FEEBAS
+	db "MILOTIC@@@"  ; MILOTIC
+	; db "SHUPPET@@@"; 
+	; db "BANETTE@@@"; 
+	db "DUSKULL@@@"  ; DUSKULL
+	db "DUSCLOPS@@"  ; DUSCLOPS
+	db "TROPIUS@@@"  ; TROPIUS
+	db "CHIMECHO@@"  ; CHIMECHO
+	db "ABSOL@@@@@"  ; ABSOL
+	db "WYNAUT@@@@"  ; WYNAUT
+	db "SNORUNT@@@"  ; SNORUNT
+	db "GLALIE@@@@"  ; GLALIE
+	db "SPHEAL@@@@"  ; SPHEAL
+	db "SEALEO@@@@"  ; SEALEO
+	db "WALREIN@@@"  ; WALREIN
+	db "CLAMPERL@@"  ; CLAMPERL
+	db "HUNTAIL@@@"  ; HUNTAIL
+	db "GOREBYSS@@"  ; GOREBYSS
+	; db "RELICANTH@"; 
+	db "LUVDISC@@@"  ; LUVDISC
+	db "BAGON@@@@@"  ; BAGON
+	db "SHELGON@@@"  ; SHELGON
+	db "SALAMENCE@"  ; SALAMENCE
+	; db "BELDUM@@@@"; 
+	; db "METANG@@@@"; 
+	; db "METAGROSS@"; 
+	; db "REGIROCK@@"; 
+	; db "REGICE@@@@"; 
+	; db "REGISTEEL@"; 
+	db "LATIAS@@@@"  ; LATIAS
+	db "LATIOS@@@@"  ; LATIOS
+	; db "KYOGRE@@@@"; 
+	db "GROUDON@@@"  ; GROUDON
+	; db "RAYQUAZA@@"; 
+	; db "JIRACHI@@@"; 
+	db "DEOXYS@@@@"  ; DEOXYS
+	db "TURTWIG@@@"  ; TURTWIG
+	db "GROTLE@@@@"  ; GROTLE
+	db "TORTERRA@@"  ; TORTERRA
+	db "CHIMCHAR@@"  ; CHIMCHAR
+	db "MONFERNO@@"  ; MONFERNO
+	db "INFERNAPE@"  ; INFERNAPE
+	db "PIPLUP@@@@"  ; PIPLUP
+	db "PRINPLUP@@"  ; PRINPLUP
+	db "EMPOLEON@@"  ; EMPOLEON
+	db "STARLY@@@@"  ; STARLY
+	db "STARAVIA@@"  ; STARAVIA
+	db "STARAPTOR@"  ; STARAPTOR
+	db "BIDOOF@@@@"  ; BIDOOF
+	db "BIBAREL@@@"  ; BIBAREL
+	db "SHINX@@@@@"  ; SHINX
+	db "LUXIO@@@@@"  ; LUXIO
+	db "LUXRAY@@@@"  ; LUXRAY
+	db "BUDEW@@@@@"  ; BUDEW
+	db "ROSERADE@@"  ; ROSERADE
+	db "CRANIDOS@@"  ; CRANIDOS
+	db "RAMPARDOS@"  ; RAMPARDOS
+	db "SHIELDON@@"  ; SHIELDON
+	db "BASTIODON@"  ; BASTIODON
+	db "BURMY@@@@@"  ; BURMY_PLANT
+	db "BURMY@@@@@"  ; BURMY_SANDY
+	db "BURMY@@@@@"  ; BURMY_TRASH
+	db "WORMADAM@@"  ; WORMADAM_PLANT
+	db "WORMADAM@@"  ; WORMADAM_SANDY
+	db "WORMADAM@@"  ; WORMADAM_TRASH
+	db "MOTHIM@@@@"  ; MOTHIM
+	db "COMBEE@@@@"  ; COMBEE
+	db "VESPIQUEN@"  ; VESPIQUEN
+	db "PACHIRISU@"  ; PACHIRISU
+	db "BUIZEL@@@@"  ; BUIZEL
+	db "FLOATZEL@@"  ; FLOATZEL
+	; db "CHERUBI@@@"; 
+	; db "CHERRIM@@@"; 
+	; db "CHERRIM@@@"; 
+	db "SHELLOS@@@"  ; SHELLOS_E
+	db "SHELLOS@@@"  ; SHELLOS_W
+	db "GASTRODON@"  ; GASTRODON_E
+	db "GASTRODON@"  ; GASTRODON_W
+	db "DRIFLOON@@"  ; DRIFLOON
+	db "DRIFBLIM@@"  ; DRIFBLIM
+	db "BUNEARY@@@"  ; BUNEARY
+	db "LOPUNNY@@@"  ; LOPUNNY
+	db "MISMAGIUS@"  ; MISMAGIUS
+	db "HONCHKROW@"  ; HONCHKROW
+	db "GLAMEOW@@@"  ; GLAMEOW
+	db "PURUGLY@@@"  ; PURUGLY
+	db "CHINGLING@"  ; CHINGLING
+	db "STUNKY@@@@"  ; STUNKY
+	db "SKUNTANK@@"  ; SKUNTANK
+	db "BRONZOR@@@"  ; BRONZOR
+	db "BRONZONG@@"  ; BRONZONG
+	db "BONSLY@@@@"  ; BONSLY
+	db "MIME JR.@@"  ; MIME_JR
+	db "HAPPINY@@@"  ; HAPPINY
+	; db "CHATOT@@@@"; 
+	; db "SPIRITOMB@"; 
+	db "GIBLE@@@@@"  ; GIBLE
+	db "GABITE@@@@"  ; GABITE
+	db "GARCHOMP@@"  ; GARCHOMP
+	db "MUNCHLAX@@"  ; MUNCHLAX
+	db "RIOLU@@@@@"  ; RIOLU
+	db "LUCARIO@@@"  ; LUCARIO
+	db "HIPPOPOTAS"  ; HIPPOPOTAS
+	db "HIPPOWDON@"  ; HIPPOWDON
+	db "SKORUPI@@@"  ; SKORUPI
+	db "DRAPION@@@"  ; DRAPION
+	db "CROAGUNK@@"  ; CROAGUNK
+	db "TOXICROAK@"  ; TOXICROAK
+	db "CARNIVINE@"  ; CARNIVINE
+	db "FINNEON@@@"  ; FINNEON
+	db "LUMINEON@@"  ; LUMINEON
+	db "MANTYKE@@@"  ; MANTYKE
+	db "SNOVER@@@@"  ; SNOVER
+	db "ABOMASNOW@"  ; ABOMASNOW
+	db "WEAVILE@@@"  ; WEAVILE
+	db "MAGNEZONE@"  ; MAGNEZONE
+	db "LICKILICKY"  ; LICKILICKY
+	db "RHYPERIOR@"  ; RHYPERIOR
+	db "TANGROWTH@"  ; TANGROWTH
+	db "ELECTIVIRE"  ; ELECTIVIRE
+	db "MAGMORTAR@"  ; MAGMORTAR
+	db "TOGEKISS@@"  ; TOGEKISS
+	db "YANMEGA@@@"  ; YANMEGA
+	db "LEAFEON@@@"  ; LEAFEON
+	db "GLACEON@@@"  ; GLACEON
+	db "GLISCOR@@@"  ; GLISCOR
+	db "MAMOSWINE@"  ; MAMOSWINE
+	db "PORYGON-Z@"  ; PORYGON_Z
+	db "GALLADE@@@"  ; GALLADE
+	db "PROBOPASS@"  ; PROBOPASS
+	db "DUSKNOIR@@"  ; DUSKNOIR
+	db "FROSLASS@@"  ; FROSLASS
+	; db "ROTOM@@@@@"; 
+	; db "UXIE@@@@@@"; 
+	; db "MESPRIT@@@"; 
+	; db "AZELF@@@@@"; 
+	; db "DIALGA@@@@"; 
+	; db "PALKIA@@@@"; 
+	; db "REGIGIGAS@"; 
+	; db "GIRATINA@@"; 
+	; db "CRESSELIA@"; 
+	db "DARKRAI@@@"  ; DARKRAI
+	; db "SHAYMIN@@@"; 
+	db "ARCEUS@@@@"  ; ARCEUS
+	db "SNIVY@@@@@"  ; SNIVY
+	db "SERVINE@@@"  ; SERVINE
+	db "SERPERIOR@"  ; SERPERIOR
+	db "TEPIG@@@@@"  ; TEPIG
+	db "PIGNITE@@@"  ; PIGNITE
+	db "EMBOAR@@@@"  ; EMBOAR
+	db "OSHAWOTT@@"  ; OSHAWOTT
+	db "DEWOTT@@@@"  ; DEWOTT
+	db "SAMUROTT@@"  ; SAMUROTT
+	; db "LILLIPUP@@"; 
+	; db "HERDIER@@@"; 
+	; db "STOUTLAND@"; 
+	db "PURRLOIN@@"  ; PURRLOIN
+	db "LIEPARD@@@"  ; LIEPARD
+	db "MUNNA@@@@@"  ; MUNNA
+	db "MUSHARNA@@"  ; MUSHARNA
+	db "ROGGENROLA"  ; ROGGENROLA
+	db "BOLDORE@@@"  ; BOLDORE
+	db "GIGALITH@@"  ; GIGALITH
+	db "WOOBAT@@@@"  ; WOOBAT
+	db "SWOOBAT@@@"  ; SWOOBAT
+	db "AUDINO@@@@"  ; AUDINO
+	db "TIMBURR@@@"  ; TIMBURR
+	db "GURDURR@@@"  ; GURDURR
+	db "CONKELDURR"  ; CONKELDURR
+	; db "SEWADDLE@@"; 
+	; db "SWADLOON@@"; 
+	; db "LEAVANNY@@"; 
+	db "VENIPEDE@@"  ; VENIPEDE
+	db "WHIRLIPEDE"  ; WHIRLIPEDE
+	db "SCOLIPEDE@"  ; SCOLIPEDE
+	db "COTTONEE@@"  ; COTTONEE
+	db "WHIMSICOTT"  ; WHIMSICOTT
+	; db "PETILIL@@@"; 
+	; db "LILLIGANT@"; 
+	db "BASCULIN@@"  ; BASCULIN_R
+	db "BASCULIN@@"  ; BASCULIN_B
+	db "BASCULIN@@"  ; BASCULIN_W
+	db "SANDILE@@@"  ; SANDILE
+	db "KROKOROK@@"  ; KROKOROK
+	db "KROOKODILE"  ; KROOKODILE
+	db "DARUMAKA@@"  ; DARUMAKA
+	db "DARUMAKA@@"  ; DARUMAKA_G
+	db "DARMANITAN"  ; DARMANITAN
+	db "DARMANITAN"  ; DARMANITAN_G
+	; db "MARACTUS@@"; 
+	db "DWEBBLE@@@"  ; DWEBBLE
+	db "CRUSTLE@@@"  ; CRUSTLE
+	db "SCRAGGY@@@"  ; SCRAGGY
+	db "SCRAFTY@@@"  ; SCRAFTY
+	db "SIGILYPH@@"  ; SIGILYPH
+	db "YAMASK@@@@"  ; YAMASK_G
+	db "TIRTOUGA@@"  ; TIRTOUGA
+	db "CARRACOSTA"  ; CARRACOSTA
+	; db "ARCHEN@@@@"; 
+	; db "ARCHEOPS@@"; 
+	db "ZORUA@@@@@"  ; ZORUA
+	db "ZOROARK@@@"  ; ZOROARK
+	db "SOLOSIS@@@"  ; SOLOSIS
+	db "DUOSION@@@"  ; DUOSION
+	db "REUNICLUS@"  ; REUNICLUS
+	db "DEERLING@@"  ; DEERLING
+	db "SAWSBUCK@@"  ; SAWSBUCK
+	db "FRILLISH@@"  ; FRILLISH
+	db "JELLICENT@"  ; JELLICENT
+	db "JOLTIK@@@@"  ; JOLTIK
+	db "GALVANTULA"  ; GALVANTULA
+	db "FERROSEED@"  ; FERROSEED
+	db "FERROTHORN"  ; FERROTHORN
+	db "TYNAMO@@@@"  ; TYNAMO
+	db "EELEKTRIK@"  ; EELEKTRIK
+	db "EELEKTROSS"  ; EELEKTROSS
+	db "ELGYEM@@@@"  ; ELGYEM
+	db "BEHEEYEM@@"  ; BEHEEYEM
+	db "LITWICK@@@"  ; LITWICK
+	db "LAMPENT@@@"  ; LAMPENT
+	db "CHANDELURE"  ; CHANDELURE
+	db "AXEW@@@@@@"  ; AXEW
+	db "FRAXURE@@@"  ; FRAXURE
+	db "HAXORUS@@@"  ; HAXORUS
+	db "CUBCHOO@@@"  ; CUBCHOO
+	db "BEARTIC@@@"  ; BEARTIC
+	db "STUNFISK@@"  ; STUNFISK
+	db "MIENFOO@@@"  ; MIENFOO
+	db "MIENSHAO@@"  ; MIENSHAO
+	db "DRUDDIGON@"  ; DRUDDIGON
+	; db "GOLETT@@@@"; 
+	; db "GOLURK@@@@"; 
+	; db "PAWNIARD@@"; 
+	; db "BISHARP@@@"; 
+	db "VULLABY@@@"  ; VULLABY
+	db "MANDIBUZZ@"  ; MANDIBUZZ
+	db "HEATMOR@@@"  ; HEATMOR
+	db "DURANT@@@@"  ; DURANT
+	; db "DEINO@@@@@"; 
+	; db "ZWEILOUS@@"; 
+	; db "HYDREIGON@"; 
+	; db "LARVESTA@@"; 
+	; db "VOLCARONA@"; 
+	db "CHESPIN@@@"  ; CHESPIN
+	db "QUILLADIN@"  ; QUILLADIN
+	db "CHESNAUGHT"  ; CHESNAUGHT
+	db "FENNEKIN@@"  ; FENNEKIN
+	db "BRAIXEN@@@"  ; BRAIXEN
+	db "DELPHOX@@@"  ; DELPHOX
+	db "FROAKIE@@@"  ; FROAKIE
+	db "FROGADIER@"  ; FROGADIER
+	db "GRENINJA@@"  ; GRENINJA
+	db "FLETCHLING"  ; FLETCHLING
+	db "FLETCHINDR"  ; FLETCHINDR
+	db "TALONFLAME"  ; TALONFLAME
+	db "SCATTERBUG"  ; SCATTERBUG
+	db "SPEWPA@@@@"  ; SPEWPA
+	db "VIVILLON@@"  ; VIVILLON
+	db "FLABEBE@@@"  ; FLABEBE
+	db "FLOETTE@@@"  ; FLOETTE
+	db "FLORGES@@@"  ; FLORGES
+	db "SKIDDO@@@@"  ; SKIDDO
+	db "GOGOAT@@@@"  ; GOGOAT
+	db "PANCHAM@@@"  ; PANCHAM
+	db "PANGORO@@@"  ; PANGORO
+	; db "ESPURR@@@@"; 
+	; db "MEOWSTIC@@"; 
+	; db "HONEDGE@@@"; 
+	; db "DOUBLADE@@"; 
+	; db "AEGISLASH@"; 
+	db "SPRITZEE@@"  ; SPRITZEE
+	db "AROMATISSE"  ; AROMATISSE
+	; db "SWIRLIX@@@"; 
+	; db "SLURPUFF@@"; 
+	db "INKAY@@@@@"  ; INKAY
+	db "MALAMAR@@@"  ; MALAMAR
+	db "BINACLE@@@"  ; BINACLE
+	db "BARBARACLE"  ; BARBARACLE
+	db "SKRELP@@@@"  ; SKRELP
+	db "DRAGALGE@@"  ; DRAGALGE
+	db "HELIOPTILE"  ; HELIOPTILE
+	db "HELIOLISK@"  ; HELIOLISK
+	db "TYRUNT@@@@"  ; TYRUNT
+	db "TYRANTRUM@"  ; TYRANTRUM
+	db "AMAURA@@@@"  ; AMAURA
+	db "AURORUS@@@"  ; AURORUS
+	db "SYLVEON@@@"  ; SYLVEON
+	db "HAWLUCHA@@"  ; HAWLUCHA
+	db "DEDENNE@@@"  ; DEDENNE
+	db "CARBINK@@@"  ; CARBINK
+	db "GOOMY@@@@@"  ; GOOMY
+	db "SLIGGOO@@@"  ; SLIGGOO
+	db "SLIGGOO@@@"  ; SLIGGOO_H
+	db "GOODRA@@@@"  ; GOODRA
+	db "GOODRA@@@@"  ; GOODRA_H
+	; db "KLEFKI@@@@"; 
+	db "PHANTUMP@@"  ; PHANTUMP
+	db "TREVENANT@"  ; TREVENANT
+	db "PUMPKABOO@"  ; PUMPKABOO
+	db "GOURGEIST@"  ; GOURGEIST
+	db "BERGMITE@@"  ; BERGMITE
+	db "AVALUGG@@@"  ; AVALUGG
+	; db "XERNEAS@@@"; 
+	; db "YVELTAL@@@"; 
+	; db "ZYGARDE@@@"; 
+	db "DIANCIE@@@"  ; DIANCIE
+	; db "VOLCANION@"; 
+	db "ROWLET@@@@"  ; ROWLET
+	db "DARTRIX@@@"  ; DARTRIX
+	db "DECIDUEYE@"  ; DECIDUEYE
+	db "DECIDUEYE@"  ; DECIDUEYE_H
+	; db "PIKIPEK@@@"; 
+	; db "TRUMBEAK@@"; 
+	; db "TOUCANNON@"; 
+	db "YUNGOOS@@@"  ; YUNGOOS
+	db "GUMSHOOS@@"  ; GUMSHOOS
+	db "GRUBBIN@@@"  ; GRUBBIN
+	db "CHARJABUG@"  ; CHARJABUG
+	db "VIKAVOLT@@"  ; VIKAVOLT
+	db "CRABRAWLER"  ; CRABRAWLER
+	db "CRABOMABLE"  ; CRABOMABLE
+	db "CUTIEFLY@@"  ; CUTIEFLY
+	db "RIBOMBEE@@"  ; RIBOMBEE
+	db "ROCKRUFF@@"  ; ROCKRUFF
+	db "LYCANROC@@"  ; LYCANROC_MD
+	db "LYCANROC@@"  ; LYCANROC_MN
+	; db "MAREANIE@@"; 
+	; db "TOXAPEX@@@"; 
+	; db "MUDBRAY@@@"; 
+	; db "MUDSDALE@@"; 
+	db "DEWPIDER@@"  ; DEWPIDER
+	db "ARAQUANID@"  ; ARAQUANID
+	db "FOMANTIS@@"  ; FOMANTIS
+	db "LURANTIS@@"  ; LURANTIS
+	db "MORELULL@@"  ; MORELULL
+	db "SHIINOTIC@"  ; SHIINOTIC
+	db "STUFFUL@@@"  ; STUFFUL
+	db "BEWEAR@@@@"  ; BEWEAR
+	db "ORANGURU@@"  ; ORANGURU
+	; db "PASSIMIAN@"; 
+	db "WIMPOD@@@@"  ; WIMPOD
+	db "GOLISOPOD@"  ; GOLISOPOD
+	db "SANDYGAST@"  ; SANDYGAST
+	db "PALOSSAND@"  ; PALOSSAND
+	db "PYUKUMUKU@"  ; PYUKUMUKU
+	; db "TYPE: NULL"; 
+	; db "SILVALLY@@"; 
+	db "MINIOR@@@@"  ; MINIOR_METEOR
+	db "MINIOR@@@@"  ; MINIOR_CORE
+	; db "KOMALA@@@@"; 
+	db "TURTONATOR"  ; TURTONATOR
+	db "TOGEDEMARU"  ; TOGEDEMARU
+	db "MIMIKYU@@@"  ; MIMIKYU
+	db "DRAMPA@@@@"  ; DRAMPA
+	db "DHELMISE@@"  ; DHELMISE
+	; db "JANGMO-O@@"; 
+	; db "HAKAMO-O@@"; 
+	; db "KOMMO-O@@@"; 
+	; db "NIHILEGO@@"; 
+	; db "BUZZWOLE@@"; 
+	; db "PHEROMOSA@"; 
+	; db "XURKITREE@"; 
+	; db "CELESTEELA"; 
+	; db "KARTANA@@@"; 
+	; db "GUZZLORD@@"; 
+	; db "MAGEARNA@@"; 
+	; db "STAKATAKA@"; 
+	; db "BLACEPHLON"; 
+	; db "GROOKEY@@@"; 
+	; db "THWACKEY@@"; 
+	; db "RILLABOOM@"; 
+	; db "ROOKIDEE@@"; 
+	; db "CORVSQUIRE"; 
+	; db "CORVKNIGHT"; 
+	; db "BLIPBUG@@@"; 
+	; db "DOTTLER@@@"; 
+	; db "ORBEETLE@@"; 
+	db "NICKIT@@@@"  ; NICKIT
+	db "THIEVUL@@@"  ; THIEVUL
+	db "GOSSIFLEUR"  ; GOSSIFLEUR
+	db "ELDEGOSS@@"  ; ELDEGOSS
+	; db "WOOLOO@@@@"; 
+	; db "DUBWOOL@@@"; 
+	db "CHEWTLE@@@"  ; CHEWTLE
+	db "DREDNAW@@@"  ; DREDNAW
+	; db "ROLYCOLY@@"; 
+	; db "CARKOL@@@@"; 
+	; db "COALOSSAL@"; 
+	db "APPLIN@@@@"  ; APPLIN
+	db "FLAPPLE@@@"  ; FLAPPLE
+	db "APPLETUN@@"  ; APPLETUN
+	db "ARROKUDA@@"  ; ARROKUDA
+	db "BARASKEWDA"  ; BARASKEWDA
+	; db "TOXEL@@@@@"; 
+	; db "TOXTRICITY"; 
+	; db "TOXTRICITY"; 
+	db "SIZZLIPEDE"  ; SIZZLIPEDE
+	db "CENTISKRCH"  ; CENTISKRCH
+	db "CLOBBOPUS@"  ; CLOBBOPUS
+	db "GRAPPLOCT@"  ; GRAPPLOCT
+	db "SINISTEA@@"  ; SINISTEA
+	db "POLTEAGYST"  ; POLTEAGYST
+	db "HATENNA@@@"  ; HATENNA
+	db "HATTREM@@@"  ; HATTREM
+	db "HATTERENE@"  ; HATTERENE
+	db "OBSTAGOON@"  ; OBSTAGOON
+	db "PERRSERKER"  ; PERRSERKER
+	db "CURSOLA@@@"  ; CURSOLA
+	db "SIRFETCH'D"  ; SIRFETCH_D
+	db "MR. RIME@@"  ; MR__RIME
+	db "RUNERIGUS@"  ; RUNERIGUS
+	db "MILCERY@@@"  ; MILCERY
+	db "ALCREMIE@@"  ; ALCREMIE
+	; db "FALINKS@@@"; 
+	db "PINCURCHIN"  ; PINCURCHIN
+	db "SNOM@@@@@@"  ; SNOM
+	db "FROSMOTH@@"  ; FROSMOTH
+	; db "STONJOURNR"; 
+	db "EISCUE@@@@"  ; EISCUE
+	db "CUFANT@@@@"  ; CUFANT
+	db "COPPERAJAH"  ; COPPERAJAH
+	; db "DRACOZOLT@"; 
+	; db "ARCTOZOLT@"; 
+	; db "DRACOVISH@"; 
+	; db "ARCTOVISH@"; 
+	; db "DURALUDON@"; 
+	db "DREEPY@@@@"  ; DREEPY
+	db "DRAKLOAK@@"  ; DRAKLOAK
+	db "DRAGAPULT@"  ; DRAGAPULT
+	; db "REGIELEKI@"; 
+	; db "REGIDRAGO@"; 
+	db "WYRDEER@@@"  ; WYRDEER
+	db "KLEAVOR@@@"  ; KLEAVOR
+	db "URSALUNA@@"  ; URSALUNA
+	db "BASCULEGON"  ; BASCULEGON_M
+	db "BASCULEGON"  ; BASCULEGON_F
+	db "OVERQWIL@@"  ; OVERQWIL
+	db "FUECOCO@@@"  ; FUECOCO
+	db "CROCALOR@@"  ; CROCALOR
+	db "SKELEDIRGE"  ; SKELEDIRGE
+	db "FIDOUGH@@@"  ; FIDOUGH
+	db "DACHSBUN@@"  ; DACHSBUN
+	db "TADBULB@@@"  ; TADBULB
+	db "BELLIBOLT@"  ; BELLIBOLT
+	db "WIGLETT@@@"  ; WIGLETT
+	db "WUGTRIO@@@"  ; WUGTRIO
+	; db "GLIMMET@@@"; 
+	; db "GLIMMORA@@"; 
+	db "GREAVARD@@"  ; GREAVARD
+	db "HOUNDSTONE"  ; HOUNDSTONE
+	db "FLAMIGO@@@"  ; FLAMIGO
+	db "VELUZA@@@@"  ; VELUZA
+	db "TATSUGIRI@"  ; TATSUGIRI
+	db "CLODSIRE@@"  ; CLODSIRE
+	db "FARIGIRAF@"  ; FARIGIRAF
+	; db "WO-CHIEN@@"
+	assert_table_length NUM_POKEMON

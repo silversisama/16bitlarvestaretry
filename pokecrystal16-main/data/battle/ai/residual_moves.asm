@@ -1,0 +1,36 @@
+; AI_CAUTIOUS discourages these moves after the first turn.
+
+ResidualMoves:
+	dw MIST
+	dw LEECH_SEED
+	dw POISONPOWDER
+	dw STUN_SPORE
+	dw THUNDER_WAVE
+	dw FOCUS_ENERGY
+	dw BIDE
+	dw POISON_GAS
+	dw TRANSFORM
+	dw CONVERSION
+	dw SUBSTITUTE
+	dw SPIKES
+	dw TOXIC_SPIKES
+	dw STEALTH_ROCK
+	dw STICKY_WEB
+	dw SHELL_SMASH
+	dw NUZZLE
+	dw REFLECT_TYPE
+	dw TRICK
+	dw SWITCHEROO
+	dw INGRAIN
+	dw SOAK
+	dw YAWN
+	dw FAKE_OUT
+	dw FIRST_IMPRESSION
+	dw LUCKY_CHANT
+	dw AQUA_RING
+	dw TRICK_ROOM
+	dw WEATHERVANE
+	dw MAGIC_POWDER
+	dw OCTOLOCK
+	dw WILL_O_WISP
+	dw -1 ; end

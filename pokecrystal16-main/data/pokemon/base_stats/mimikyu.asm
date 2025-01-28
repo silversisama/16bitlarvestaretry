@@ -1,0 +1,20 @@
+	db 0 ; species ID placeholder
+
+	db  55,  90,  80,  96,  50, 105
+	evs  0,   0,   0,   0,   0,   2
+	;   hp  atk  def  spd  sat  sdf
+
+	db GHOST, FAIRY ; type
+	db 45 ; catch rate
+	db 167 ; base exp
+	db NO_ITEM, MINT_BERRY ; items
+	db GENDER_F50 ; gender ratio
+	db 20 ; step cycles to hatch
+	INCBIN "gfx/pokemon/mimikyu/front.dimensions"
+	db 0, 0, 0, 0 ; padding
+	db GROWTH_MEDIUM_FAST ; growth rate
+	dn EGG_INDETERMINATE, EGG_INDETERMINATE ; egg groups
+
+	; tm/hm learnset
+	tmhm HONE_CLAWS, TOXIC, CURSE, HIDDEN_POWER, HYPER_BEAM, LIGHT_SCREEN, PROTECT, MIRROR_MOVE, SAFEGUARD, THUNDERBOLT, THUNDER, RETURN, PSYCHIC_M, SHADOW_BALL, DOUBLE_TEAM, FACADE, REST, ATTRACT, THIEF, PLAY_ROUGH, CHARGE_BEAM, ENDURE, WILL_O_WISP, SHADOW_CLAW, PAYBACK, GIGA_IMPACT, FLASH, THUNDER_WAVE, SWORDS_DANCE, PSYCH_UP, X_SCISSOR, INFESTATION, DREAM_EATER, SWAGGER, SLEEP_TALK, SUBSTITUTE, TRICK_ROOM, ROCK_SMASH, OMINOUS_WIND, DARK_PULSE, DAZZLING_GLEAM, CUT
+	; end
